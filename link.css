@@ -1,0 +1,13 @@
+h1 {
+  position: absolute;
+  text-align: center;
+  margin: 10%;
+  font-family: "Yellowtail", cursive;
+  font-size: 420px;
+  z-index: 1;
+  color: red;
+  text-shadow: 3px;
+}
+h1:hover {
+  color: blueviolet;
+}
