@@ -1,13 +1,32 @@
+html {
+  font-size: 800%;
+}
+@media only screen and (max-device-width: 480px) {
+  html {
+    font-size: 200%;
+  }
+}
+
 h1 {
-  position: absolute;
+  position: relative;
+
   text-align: center;
   margin: 10%;
   font-family: "Yellowtail", cursive;
-  font-size: 420px;
+  font-size: 100%;
   z-index: 1;
   color: red;
   text-shadow: 3px;
 }
 h1:hover {
   color: blueviolet;
+}
+a {
+  text-decoration: none;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10%;
 }
